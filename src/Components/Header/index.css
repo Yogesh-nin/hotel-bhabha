@@ -1,4 +1,35 @@
 .navbar{
     font-size: 1rem;
-    
+
+}
+
+.nav-items{
+    font-size: 1.3rem;
+}
+
+
+.bg-grey{
+    background-color: #675556;
+    color: #ffffff;
+}
+
+.nav-links{
+    color: rgb(24, 22, 22)
+}
+
+.bg-grey .nav-links{
+    color: #ffffff;
+}
+
+.book-now-btn{
+    background-color: #35090B;
+    border-radius: 0 0;
+    border: 1px solid #35090B;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+
+.book-now-btn:hover {
+    background-color: #571416;
+    border: 1px solid #571416;
 }
