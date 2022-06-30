@@ -9,6 +9,9 @@ function Home() {
     <div>
       <Header />
       <Slider />
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+      </h1>
     </div>
   );
 }
