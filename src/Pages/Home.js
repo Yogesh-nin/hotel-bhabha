@@ -9,6 +9,9 @@ function Home() {
     <div>
       <Header />
       <Slider />
+      <div>
+        <h1>this is container</h1>
+      </div>
     </div>
   );
 }

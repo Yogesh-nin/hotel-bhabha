@@ -8,15 +8,15 @@ const Slider = (props) => {
   return (
     <div>
       {props.children}
-      <Carousel fade>
+      <Carousel fade className="vh-100" indicators>
         <Carousel.Item>
-          <img className="d-block w-100" src={slideimg1} alt="First slide" />
+          <img className="d-block w-100 vh-100" src={slideimg1} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slideimg2} alt="Second slide" />
+          <img className="d-block w-100 vh-100" src={slideimg2} alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slideimg3} alt="Third slide" />
+          <img className="d-block w-100 vh-100" src={slideimg3} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
     </div>
