@@ -6,12 +6,16 @@ import Slider from "../Components/Slider/Slider";
 import Footer from "../Components/Footer";
 import MapView from "../Components/Map.jsx";
 
+import CardSlider from "../Components/CardSlider/CardSlider";
+
 function Home() {
   return (
     <div>
       <Header />
       <Slider />
+      <CardSlider />
       <MapView />
+
       <Footer />
     </div>
   );
