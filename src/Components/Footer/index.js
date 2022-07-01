@@ -5,7 +5,6 @@ import "./index.css";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { SiGmail, SiGooglemaps } from "react-icons/si";
-import marker from '../../Assets/images/place-marker.png'
 
 function Footer() {
   return (

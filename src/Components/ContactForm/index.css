@@ -1,0 +1,57 @@
+.form-container{
+    background-color: #F7F7F7;
+}
+
+.social-icons{
+    display: inline-block; 
+    padding-left: 0;
+    margin: 0 auto 0;
+
+}
+
+.social-icons li{
+    width: auto !important;
+    display: inline-block !important;
+    vertical-align: top;
+    clear: none !important;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.social-icons a{
+    display: flex;
+    background-color: transparent;
+    border: 2px solid #666;
+    width: 36px;
+    height: 36px;
+    color: #666;
+    font-size: 16px;
+    line-height: 34px!important;
+    margin-right: 4px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;  
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a.contact-fb-icon:hover { background-color: #3b5998; border-color: #3b5998; color: #fff; cursor: pointer; }
+.social-icons a.contact-ig-icon:hover { background-color: #dc3c59; border-color: #dc3c59; color: #fff; cursor: pointer; }
+.social-icons a.contact-mail-icon:hover { background-color: #db4a39; border-color: #db4a39; color: #fff; cursor: pointer; }
+.social-icons a.contact-map-icon:hover { background-color: #1ea362; border-color: #1ea362; color: #fff; cursor: pointer; }
+
+Form .form-input{
+    border-radius: 0px;
+    border: 1px solid #666;
+    padding: 4px 10px;
+}
+
+.submit-btn{
+    border-radius: 0px;
+    border: 1px solid #675556;
+    background-color: #675556;
+}
+.submit-btn:hover{
+    background-color: #785a5b;
+    border: 1px solid #675556;
+}
