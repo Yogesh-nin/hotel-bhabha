@@ -1,21 +1,21 @@
 import React from "react";
-
+import OffcanvasExample from '../Components/Header/Offcanvas'
 //components
 import Header from "../Components/Header/Index";
 import Slider from "../Components/Slider/Slider";
 import Footer from "../Components/Footer";
 import MapView from "../Components/Map.jsx";
-import ContactForm from '../Components/ContactForm/index'
-import { Container } from "react-bootstrap"
+import ContactForm from '../Components/ContactForm'
+
+import CardSlider from "../Components/CardSlider/CardSlider";
 function Home() {
   return (
     <div>
       <Header />
       <Slider />
-      <div className="d-flex-column justify-content-center ">
+      <CardSlider />
       <ContactForm />
       <MapView />
-      </div>
       <Footer />
     </div>
   );

@@ -1,6 +1,5 @@
 .navbar{
-    font-size: 1rem;
-
+    font-size: 1.3rem;
 }
 
 .nav-items{
@@ -11,6 +10,7 @@
 .bg-grey{
     background-color: #675556;
     color: #ffffff;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .nav-links{
@@ -33,3 +33,4 @@
     background-color: #571416;
     border: 1px solid #571416;
 }
+
