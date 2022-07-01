@@ -13,7 +13,7 @@ function CardSlider() {
   var settings = {
     dots: false,
     arrow: true,
-    centerPadding: 0,
+    centerPadding: 10,
     nextArrow: <GrLinkNext />,
     prevArrow: <GrLinkPrevious />,
     infinite: true,
