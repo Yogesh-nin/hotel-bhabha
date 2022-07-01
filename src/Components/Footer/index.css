@@ -1,3 +1,35 @@
 .footer-2 {
   background-color: #675556;
 }
+
+.instagram-icon{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: #ffffff;
+  padding: 4px 4px;
+  border-radius: 8px 8px;
+}
+
+.fb-icon{
+  background-color: #4267B2;
+  color: #ffffff;
+  padding: 4px 4px;
+  border-radius: 3px 3px;
+}
+
+.gmail-icon{
+  color: #EA4335;
+}
+
+.map-icon{
+  color: #CF3633;
+}
+
+.icons:hover{
+  cursor: pointer;
+  transform: translateY(-4px);
+  transition:0.3s;
+}
