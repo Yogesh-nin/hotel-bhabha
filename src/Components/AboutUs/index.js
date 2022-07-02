@@ -66,7 +66,9 @@ const AboutUs = () => {
               to the pride of Rajkot Maintaining the manner and comfort of times
               past...
             </p>
-            <Button className="book-now-btn">Know More</Button>
+            <Button href="./about" className="book-now-btn">
+              Read more...
+            </Button>
           </div>
         </Col>
       </Row>
