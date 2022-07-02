@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 
-import about1 from "../../Assets/images/aboutus2.jpg";
-import about2 from "../../Assets/images/aboutus1.jpg";
+import about1 from "../../Assets/images/about-grid-large.jpg";
+import about2 from "../../Assets/images/about-grid-small.jpg";
 
 function AboutUsGrid() {
   return (
@@ -33,7 +33,7 @@ function AboutUsGrid() {
           </p>
         </div>
       </div>
-      <div className="pride-heritage py-2  justify-content-center ">
+      {/* <div className="pride-heritage py-2  justify-content-center ">
         <h4 className="">Pride of Rajkot: Hotel Bhaba</h4>
         <p className="mt-3">
           The authentic architectural construction and custom-built room
@@ -45,7 +45,7 @@ function AboutUsGrid() {
           throughout the entire building makes hotel Bhabha a perfect location
           for business and leisure travelers.
         </p>
-      </div>
+      </div> */}
     </>
   );
 }

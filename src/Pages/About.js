@@ -9,7 +9,7 @@ import Gallery from "../Components/Gallery/Gallery";
 function About() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <AboutUsGrid />
       <Gallery />
       <Footer />

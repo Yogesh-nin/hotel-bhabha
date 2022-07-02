@@ -3,7 +3,7 @@ const MapView = () => {
   return (
     <div className=" d-flex justify-content-center">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.385539655501!2d77.13583401505258!3d28.737903886054923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d010e453713d7%3A0xad24b96a4ea19d4a!2sParadise%20Apartments%2C%20Block%20E%2C%20Sector%2018%2C%20Rohini%2C%20Delhi%2C%20110089!5e0!3m2!1sen!2sin!4v1656619408481!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.4858511071766!2d70.8001946149466!3d22.297457948632736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca1cafb235c1%3A0xd9ea036ac60c561d!2sHotel%20Bhabha%20Dinning%20Hall%2C%20Best%20Gujarati%20Thali%20in%20Rajkot!5e0!3m2!1sen!2sin!4v1656771346570!5m2!1sen!2sin"
         width="1320"
         height="450"
         style={{ border: 0 }}

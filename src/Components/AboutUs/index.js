@@ -13,18 +13,19 @@ const AboutUs = () => {
             <Col md={12}>
               <div className="text-area mb-4">
                 <div className="d-flex justify-content-center my-2">
-                    <FaFacebookF size={48} className="" />
+                  <FaFacebookF size={48} className="" />
                 </div>
 
                 <h4 className="text-center my-3">title</h4>
                 <p className="text-center">
-                  Far Far away, behind the word mountains, far from countries vokalia   
+                  Far Far away, behind the word mountains, far from countries
+                  vokalia
                 </p>
               </div>
             </Col>
             <Col md={12}>
               <div className="about-us-img">
-                <img src={img1} alt="About us image" width="100%" />
+                <img src={img1} alt="About us" width="100%" />
               </div>
             </Col>
           </Row>
@@ -34,19 +35,19 @@ const AboutUs = () => {
           <Row>
             <Col md={12}>
               <div className="about-us-img">
-                <img src={img1} alt="About us image" width="100%" />
+                <img src={img1} alt="About us " width="100%" />
               </div>
             </Col>
 
             <Col md={12}>
               <div className="text-area mt-4">
                 <div className="d-flex justify-content-center my-2">
-                    <FaFacebookF size={48} className="" />
+                  <FaFacebookF size={48} className="" />
                 </div>
                 <h4 className="text-center my-3">title</h4>
                 <p className="text-center">
-                    Far Far away, behind the word mountains, far from countries vokalia   
-                  
+                  Far Far away, behind the word mountains, far from countries
+                  vokalia
                 </p>
               </div>
             </Col>
@@ -55,15 +56,17 @@ const AboutUs = () => {
 
         <Col md={5} className="col-area-description my-4">
           <div className="">
-            <h1>Unwind A Hotel Booking Agency</h1>
+            <h1>Pride of Rajkot: Hotel Bhaba</h1>
 
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated they
-              live in Bookmarksgrove right at the coast of the Semantics, a large
-              language ocean.
+              The authentic architectural construction and custom-built room
+              settings depicts the richness and expresses an overall splendor of
+              times past and present of the Rajkot city. Guest rooms bedecked in
+              styles of the various era of the royal history, Bhabha Hotel turns
+              to the pride of Rajkot Maintaining the manner and comfort of times
+              past...
             </p>
-            <Button className="book-now-btn">Enquiry now</Button>
+            <Button className="book-now-btn">Know More</Button>
           </div>
         </Col>
       </Row>
