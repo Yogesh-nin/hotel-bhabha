@@ -10,6 +10,7 @@ import {
 
 import logo1 from "../../Assets/images/logo-1.png";
 import logo2 from "../../Assets/images/logo-2.png";
+import { Link } from 'react-router-dom'
 
 import "./index.css";
 
@@ -59,27 +60,27 @@ const Header = () => {
           <hr className="d-block d-md-none" />
           <Offcanvas.Body className="justify-content-end">
             <Nav className="nav-items mx-3">
-              <Nav.Link className="nav-links" href="/">
+              <Nav.Link as={Link} className="nav-links" to="/">
                 Home
               </Nav.Link>
-              <Nav.Link className="nav-links" eventKey={2} href="/about">
+              <Nav.Link as={Link} className="nav-links" eventKey={2} to="/about">
                 About us
               </Nav.Link>
 
-              <NavDropdown title="rooms" id="navbarScrollingDropdown" href="/rooms">
+              <NavDropdown title="rooms" id="navbarScrollingDropdown" renderMenuOnMount={true} >
                 <div className="nav-dropdown">
-                <NavDropdown.Item href="/rooms">Standard room</NavDropdown.Item>
-                <NavDropdown.Item href="/rooms">Delux room</NavDropdown.Item>
-                <NavDropdown.Item href="/rooms">Family room</NavDropdown.Item>
-                <NavDropdown.Item href="/rooms">Delux AC room</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rooms">Standard room</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rooms">Delux room</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rooms">Family room</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rooms">Delux AC room</NavDropdown.Item>
 
                 </div>
               </NavDropdown>
 
-              <Nav.Link className="nav-links" eventKey={2} href="/contact">
+              <Nav.Link as={Link} className="nav-links" eventKey={2} to="/contact">
                 Contact us
               </Nav.Link>
-              <Nav.Link href="/booking">
+              <Nav.Link as={Link} to="/booking">
                 <Button className="book-now-btn">Book Now</Button>
               </Nav.Link>
             </Nav>

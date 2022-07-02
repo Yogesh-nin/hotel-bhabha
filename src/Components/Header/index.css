@@ -50,3 +50,7 @@
     border: 1px solid #571416;
 }
 
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+

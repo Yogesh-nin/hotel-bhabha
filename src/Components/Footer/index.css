@@ -54,3 +54,12 @@
 .footer-col h3{
   line-height: 1.5;
 }
+
+.footer-list-items a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-list-items a:hover{ 
+  text-decoration: underline;
+}

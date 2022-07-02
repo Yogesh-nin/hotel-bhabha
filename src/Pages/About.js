@@ -1,7 +1,7 @@
 import React from "react";
 
 //components
-// import Header from "../Components/Header/Index";
+import Header from "../Components/Header/Index";
 import AboutUsGrid from "../Components/AboutUsGrid/AboutUsGrid";
 import Footer from "../Components/Footer";
 import Gallery from "../Components/Gallery/Gallery";
@@ -9,7 +9,7 @@ import Gallery from "../Components/Gallery/Gallery";
 function About() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <AboutUsGrid />
       <Gallery />
       <Footer />

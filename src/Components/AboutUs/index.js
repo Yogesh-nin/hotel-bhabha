@@ -25,7 +25,7 @@ const AboutUs = () => {
             </Col>
             <Col md={12}>
               <div className="about-us-img">
-                <img src={img1} alt="About us" width="100%" />
+                <figure><img src={img1} alt="About us" width="100%" /></figure>
               </div>
             </Col>
           </Row>
@@ -35,7 +35,7 @@ const AboutUs = () => {
           <Row>
             <Col md={12}>
               <div className="about-us-img">
-                <img src={img1} alt="About us " width="100%" />
+                <figure><img src={img1} alt="About us " width="100%" /></figure>
               </div>
             </Col>
 
