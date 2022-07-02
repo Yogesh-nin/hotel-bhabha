@@ -24,7 +24,11 @@ const images = [
 
 function Gallery(props) {
   const [lgShow, setLgShow] = useState(false);
+<<<<<<< HEAD
   const [curImage, setCurImage] = useState();
+=======
+  const [currImage, setCurrImage] = useState()
+>>>>>>> 9b29d17906c675ed115f9d28c77265da4da7a1f5
 
   return (
     <>

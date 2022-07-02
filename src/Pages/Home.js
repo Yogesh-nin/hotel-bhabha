@@ -15,7 +15,7 @@ function Home() {
       <AboutUs />
       <CardSlider />
       <ContactForm />
-      <MapView />
+      <MapView width="1320" height="450" />
       <Footer />
     </div>
   );

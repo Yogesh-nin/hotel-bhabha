@@ -1,5 +1,7 @@
-.footer-2 {
+.footer{
   background-color: #675556;
+  padding: 10px 0;
+  color: #ffffff;
 }
 
 .instagram-icon{
@@ -32,4 +34,23 @@
   cursor: pointer;
   transform: translateY(-4px);
   transition:0.3s;
+}
+
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo h5{
+  color: #35090B;
+}
+
+.footer-col li{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.footer-col h3{
+  line-height: 1.5;
 }

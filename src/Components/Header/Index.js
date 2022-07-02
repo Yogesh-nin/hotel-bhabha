@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { Navbar, Container, Nav, Button, Offcanvas } from "react-bootstrap";
+import {
+  Navbar,
+  Container,
+  Nav,
+  Button,
+  Offcanvas,
+  NavDropdown
+} from "react-bootstrap";
+
 import logo1 from "../../Assets/images/logo-1.png";
 import logo2 from "../../Assets/images/logo-2.png";
 
@@ -26,7 +34,7 @@ const Header = () => {
   window.addEventListener("scroll", changeNavbarLogo);
 
   return (
-    <Navbar collapseOnSelect expand="md" fixed="top" className={`navbar ${bg}`}>
+    <Navbar collapseOnSelect expand="lg" fixed="top" className={`navbar ${bg}`}>
       <Container>
         <Navbar.Brand href="#home">
           <img
@@ -40,7 +48,6 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Offcanvas
           id="responsive-navbar-nav"
-          className="justify-content-end"
           placement="end"
           aria-labelledby="offcanvasNavbarLabel-expand-lg"
         >
@@ -51,17 +58,27 @@ const Header = () => {
           </Offcanvas.Header>
           <hr className="d-block d-md-none" />
           <Offcanvas.Body className="justify-content-end">
-            <Nav className="align-items-center nav-items">
-              <Nav.Link className="mx-2 nav-links" href="/">
+            <Nav className="nav-items mx-3">
+              <Nav.Link className="nav-links" href="/">
                 Home
               </Nav.Link>
               <Nav.Link className="nav-links" eventKey={2} href="/about">
                 About us
               </Nav.Link>
+
+              <NavDropdown title="rooms" id="navbarScrollingDropdown" href="/rooms">
+                <div className="nav-dropdown">
+                <NavDropdown.Item href="/rooms">Standard room</NavDropdown.Item>
+                <NavDropdown.Item href="/rooms">Delux room</NavDropdown.Item>
+                <NavDropdown.Item href="/rooms">Family room</NavDropdown.Item>
+                <NavDropdown.Item href="/rooms">Delux AC room</NavDropdown.Item>
+
+                </div>
+              </NavDropdown>
+
               <Nav.Link className="nav-links" eventKey={2} href="/contact">
                 Contact us
               </Nav.Link>
-
               <Nav.Link href="/booking">
                 <Button className="book-now-btn">Book Now</Button>
               </Nav.Link>
