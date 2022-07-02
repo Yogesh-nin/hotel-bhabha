@@ -1,9 +1,16 @@
 .navbar{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .nav-items{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+@media (max-width: 991px){
+    .nav-items{
+        align-items: start;
+    }
 }
 
 
@@ -14,10 +21,22 @@
 }
 
 .nav-links{
-    color: rgb(24, 22, 22)
+    color: rgb(24, 22, 22);
+}
+
+#navbarScrollingDropdown{
+    color: rgb(24, 22, 22);
+}
+
+.nav-dropdown{
+
 }
 
 .bg-grey .nav-links{
+    color: #ffffff;
+}
+
+.bg-grey #navbarScrollingDropdown{
     color: #ffffff;
 }
 
