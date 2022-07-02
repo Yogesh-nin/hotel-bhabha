@@ -4,7 +4,7 @@ import React from "react";
 import Header from "../Components/Header/Index";
 import AboutUsGrid from "../Components/AboutUsGrid/AboutUsGrid";
 import Footer from "../Components/Footer";
-import Gallery from "../Components/Gallery";
+import Gallery from "../Components/Gallery/Gallery";
 
 function About() {
   return (
