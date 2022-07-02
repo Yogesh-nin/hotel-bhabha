@@ -1,0 +1,59 @@
+.img-large {
+  height: auto;
+  width: 100%;
+
+  z-index: 1;
+}
+
+.img-small {
+  width: 100%;
+  height: auto;
+  border: 8px white solid;
+
+  z-index: 2;
+}
+
+.parent {
+  position: relative;
+  width: 70vw;
+}
+
+.child {
+  width: 300px;
+  position: absolute;
+
+  bottom: -10%;
+  right: -20%;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.pride-heritage {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 4rem 2rem 4rem;
+}
+
+@media screen and (min-width: 968px) {
+  .about-us {
+    margin-left: 8rem;
+    max-width: 50vw;
+  }
+
+  .pride-heritage {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .child {
+    display: none;
+  }
+}
