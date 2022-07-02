@@ -74,7 +74,7 @@ const Header = () => {
                   <NavDropdown.Item as={Link} to="/rooms">Family room</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/rooms">Delux AC room</NavDropdown.Item>
 
-                </div>
+                </div> 
               </NavDropdown>
 
               <Nav.Link as={Link} className="nav-links" eventKey={2} to="/contact">
