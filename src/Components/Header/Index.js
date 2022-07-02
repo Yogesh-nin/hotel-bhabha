@@ -1,20 +1,12 @@
 import React, { useState } from "react";
-import {
-  Navbar,
-  Container,
-  Nav,
-  Button,
-  Offcanvas,
-  // OffcanvasBody,
-} from "react-bootstrap";
+import { Navbar, Container, Nav, Button, Offcanvas } from "react-bootstrap";
 import logo1 from "../../Assets/images/logo-1.png";
 import logo2 from "../../Assets/images/logo-2.png";
-// import logo3 from "../../Assets/images/logo3.png";
 
 import "./index.css";
 
 const Header = () => {
-  const [logo, setLogo] = useState(logo2);
+  const [logo, setLogo] = useState(logo1);
   const [width, setWidth] = useState("180");
   const [height, setHeight] = useState("80");
   const [bg, setbg] = useState("");
