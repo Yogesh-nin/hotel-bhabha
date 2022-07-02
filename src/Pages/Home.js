@@ -1,12 +1,11 @@
 import React from "react";
-
 //components
 import Header from "../Components/Header/Index";
 import Slider from "../Components/Slider/Slider";
 import Footer from "../Components/Footer";
 import MapView from "../Components/Map.jsx";
-import ContactForm from '../Components/ContactForm'
-import AboutUs from '../Components/AboutUs'
+import ContactForm from "../Components/ContactForm";
+import AboutUs from "../Components/AboutUs";
 import CardSlider from "../Components/CardSlider/CardSlider";
 function Home() {
   return (
@@ -16,7 +15,7 @@ function Home() {
       <AboutUs />
       <CardSlider />
       <ContactForm />
-      <MapView />
+      <MapView width="1320" height="450" />
       <Footer />
     </div>
   );

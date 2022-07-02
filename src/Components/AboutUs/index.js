@@ -63,7 +63,7 @@ const AboutUs = () => {
               live in Bookmarksgrove right at the coast of the Semantics, a large
               language ocean.
             </p>
-            <Button className="book-now-btn">Enquiry now</Button>
+            <Button href="./about" className="book-now-btn">Read more...</Button>
           </div>
         </Col>
       </Row>

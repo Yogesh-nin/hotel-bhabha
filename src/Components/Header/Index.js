@@ -7,6 +7,7 @@ import {
   Offcanvas,
   NavDropdown
 } from "react-bootstrap";
+
 import logo1 from "../../Assets/images/logo-1.png";
 import logo2 from "../../Assets/images/logo-2.png";
 
@@ -78,7 +79,6 @@ const Header = () => {
               <Nav.Link className="nav-links" eventKey={2} href="/contact">
                 Contact us
               </Nav.Link>
-
               <Nav.Link href="/booking">
                 <Button className="book-now-btn">Book Now</Button>
               </Nav.Link>
