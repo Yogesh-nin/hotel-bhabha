@@ -1,6 +1,6 @@
 import React from "react";
 //components
-import Header from "../Components/Header/Index";
+import Header from "../Components/Header";
 import Slider from "../Components/Slider/Slider";
 import Footer from "../Components/Footer";
 import MapView from "../Components/Map.jsx";

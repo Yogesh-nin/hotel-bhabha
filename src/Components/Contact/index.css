@@ -1,0 +1,32 @@
+.contact img {
+  z-index: 1;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.contact h1 {
+  font-size: 8vw;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+  margin-top: 5vh;
+
+  display: flex;
+  /* align-content: center; */
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.address-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 25px;
+}

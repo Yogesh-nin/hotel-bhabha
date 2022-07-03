@@ -1,56 +1,53 @@
-.navbar{
-    font-size: 1.1rem;
+.navbar {
+  font-size: 1.1rem;
 }
 
-.nav-items{
-    font-size: 1.1rem;
-    align-items: center;
+.nav-items {
+  font-size: 1.1rem;
+  align-items: center;
 }
 
-@media (max-width: 991px){
-    .nav-items{
-        align-items: start;
-    }
+@media (max-width: 991px) {
+  .nav-items {
+    align-items: start;
+  }
 }
 
-
-.bg-grey{
-    background-color: #675556;
-    color: #ffffff;
-    transition: background-color 0.5s ease-in-out;
+.bg-grey {
+  background-color: #675556;
+  color: #ffffff;
+  transition: background-color 0.5s ease-in-out;
 }
 
-.nav-links{
-    color: rgb(24, 22, 22);
+.nav-links {
+  color: rgb(24, 22, 22);
 }
 
-#navbarScrollingDropdown{
-    color: rgb(24, 22, 22);
+#navbarScrollingDropdown {
+  color: rgb(24, 22, 22);
 }
 
-
-.bg-grey .nav-links{
-    color: #ffffff;
+.bg-grey .nav-links {
+  color: #ffffff;
 }
 
-.bg-grey #navbarScrollingDropdown{
-    color: #ffffff;
+.bg-grey #navbarScrollingDropdown {
+  color: #ffffff;
 }
 
-.book-now-btn{
-    background-color: #35090B;
-    border-radius: 0 0;
-    border: 1px solid #35090B;
-    padding: 5px 10px;
-    font-size: 1.2rem;
+.book-now-btn {
+  background-color: #35090b;
+  border-radius: 0 0;
+  border: 1px solid #35090b;
+  padding: 5px 10px;
+  font-size: 1.2rem;
 }
 
 .book-now-btn:hover {
-    background-color: #571416;
-    border: 1px solid #571416;
+  background-color: #571416;
+  border: 1px solid #571416;
 }
 
 .nav-item.dropdown:hover .dropdown-menu {
-    display: block;
+  display: block;
 }
-

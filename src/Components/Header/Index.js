@@ -5,12 +5,12 @@ import {
   Nav,
   Button,
   Offcanvas,
-  NavDropdown
+  NavDropdown,
 } from "react-bootstrap";
 
 import logo1 from "../../Assets/images/logo-1.png";
 import logo2 from "../../Assets/images/logo-2.png";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 import "./index.css";
 
@@ -63,21 +63,42 @@ const Header = () => {
               <Nav.Link as={Link} className="nav-links" to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} className="nav-links" eventKey={2} to="/about">
-                About us
+              <Nav.Link
+                as={Link}
+                className="nav-links"
+                eventKey={2}
+                to="/about"
+              >
+                About
               </Nav.Link>
 
-              <NavDropdown title="rooms" id="navbarScrollingDropdown" renderMenuOnMount={true} >
+              <NavDropdown
+                title="rooms"
+                id="navbarScrollingDropdown"
+                renderMenuOnMount={true}
+              >
                 <div className="nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/rooms">Standard room</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms">Delux room</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms">Family room</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms">Delux AC room</NavDropdown.Item>
-
-                </div> 
+                  <NavDropdown.Item as={Link} to="/rooms">
+                    Standard room
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rooms">
+                    Delux room
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rooms">
+                    Family room
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rooms">
+                    Delux AC room
+                  </NavDropdown.Item>
+                </div>
               </NavDropdown>
 
-              <Nav.Link as={Link} className="nav-links" eventKey={2} to="/contact">
+              <Nav.Link
+                as={Link}
+                className="nav-links"
+                eventKey={2}
+                to="/contact"
+              >
                 Contact us
               </Nav.Link>
               <Nav.Link as={Link} to="/booking">
