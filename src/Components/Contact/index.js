@@ -27,7 +27,7 @@ function ContactUs(props) {
           </p>
         </div>
       </div>
-      <div className="d-lg-flex justify-content-around   mt-5  px-5">
+      {/* <div className=" justify-content-around   mt-5  px-5">
         <div className="address-card ">
           <h4>
             <FaHotel /> Hotel address
@@ -45,7 +45,7 @@ function ContactUs(props) {
         <div>
           <Map width="500" height="200" />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

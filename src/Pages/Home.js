@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../Components/Header";
 import Slider from "../Components/Slider/Slider";
 import Footer from "../Components/Footer";
-import MapView from "../Components/Map.jsx";
+// import MapView from "../Components/Map.jsx";
 import ContactForm from "../Components/ContactForm";
 import AboutUs from "../Components/AboutUs";
 import CardSlider from "../Components/CardSlider/CardSlider";
@@ -15,7 +15,7 @@ function Home() {
       <AboutUs />
       <CardSlider />
       <ContactForm />
-      <MapView width="1320" height="450" />
+      {/* <MapView width="1320" height="450" /> */}
       <Footer />
     </div>
   );
