@@ -10,9 +10,9 @@ import Map from "../../Components/Map";
 
 const ContactForm = (props) => {
   return (
-    <Container className="d-flex  justify-content-center mb-5">
-      <Row className="justify-content-between p-3 form-container">
-        <Col md={5}>
+    <Container className="mb-5 form-container">
+      <Row className="justify-content-between p-3">
+        <Col lg={5}>
           <div className=" ">
             <div className="address-card ">
               <h2>
@@ -58,7 +58,7 @@ const ContactForm = (props) => {
           </div>
         </Col>
 
-        <Col md={5} className="d-none d-md-block">
+        <Col lg={5} className="d-none d-lg-block">
           <h2 className="mb-4 mt-4 ">
             <FaHotel /> Hotel address
           </h2>
@@ -129,27 +129,3 @@ const ContactForm = (props) => {
 };
 
 export default ContactForm;
-
-/* <Col md={6}>
-          <h1 className="text-center">CONNECT WITH US</h1>
-          <p className="text-center">
-            Want to work with us? We’d love to hear from you.
-          </p>
-
-          <p className="text-center">
-            Plot No: 26, Shobana Colony, Mahatma Gandhi Nagar, West Marredpally,
-            Secunderabad, Telangana 500026, India
-          </p>
-
-          <p className="text-center">info@hotelbhabha.com</p>
-
-          <div>
-            <ul className="social-icons list-unstyled d-flex justify-content-center">
-                <li><a className="contact-icons contact-fb-icon"><FaFacebookF size={24} className="" /></a></li>
-                <li><a className="contact-icons contact-ig-icon"><BsInstagram size={24} className="" /></a></li>
-                <li><a className="contact-icons contact-mail-icon"><SiGmail size={24} className="" /></a></li>
-                <li><a className="contact-icons contact-map-icon"><SiGooglemaps size={24} className="" /></a></li>
-            </ul>
-          </div>
-
-        </Col> */
