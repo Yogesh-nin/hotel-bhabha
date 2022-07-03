@@ -1,14 +1,14 @@
 import React from "react";
 import ContactUs from "../Components/Contact";
-// import Footer from "../Components/Footer";
-// import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 function Contact() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <ContactUs />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

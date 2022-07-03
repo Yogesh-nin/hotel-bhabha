@@ -9,7 +9,7 @@ import Map from "../../Components/Map";
 
 function ContactUs(props) {
   return (
-    <>
+    <div id="contact-container">
       <div className="block">
         <div className="contact">
           <img src={contact1} alt="Contact Us" className=" img-fluid" />
@@ -46,7 +46,7 @@ function ContactUs(props) {
           <Map width="500" height="200" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

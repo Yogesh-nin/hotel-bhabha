@@ -4,7 +4,6 @@
   width: auto;
   height: auto;
 }
-
 .contact h1 {
   font-size: 8vw;
   font-weight: bold;
@@ -14,12 +13,12 @@
   margin-top: 5vh;
 
   display: flex;
-  /* align-content: center; */
 }
 
 .contact {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .address-card {
@@ -30,3 +29,4 @@
   height: 100%;
   padding: 25px;
 }
+
