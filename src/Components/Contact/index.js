@@ -5,11 +5,11 @@ import { FaHotel, FaPhoneAlt } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 import contact1 from "../../Assets/images/contact.jpg";
-import Map from "../../Components/Map";
+// import Map from "../../Components/Map";
 
 function ContactUs(props) {
   return (
-    <>
+    <div id="contact-container">
       <div className="block">
         <div className="contact">
           <img src={contact1} alt="Contact Us" className=" img-fluid" />
