@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 
-import { FaHotel, FaPhoneAlt } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
+// import { FaHotel, FaPhoneAlt } from "react-icons/fa";
+// import { FiMail } from "react-icons/fi";
 
 import contact1 from "../../Assets/images/contact.jpg";
 // import Map from "../../Components/Map";
@@ -27,7 +27,13 @@ function ContactUs(props) {
           </p>
         </div>
       </div>
-      {/* <div className=" justify-content-around   mt-5  px-5">
+    </div>
+  );
+}
+
+export default ContactUs;
+
+/* <div className=" justify-content-around   mt-5  px-5">
         <div className="address-card ">
           <h4>
             <FaHotel /> Hotel address
@@ -45,9 +51,4 @@ function ContactUs(props) {
         <div>
           <Map width="500" height="200" />
         </div>
-      </div> */}
-    </>
-  );
-}
-
-export default ContactUs;
+      </div> */

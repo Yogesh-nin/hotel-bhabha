@@ -53,7 +53,7 @@ const ContactForm = (props) => {
               </ul>
             </div>
             <div className="mt-5">
-              <Map width="300" height="200" />
+              <Map width="350" height="200" />
             </div>
           </div>
         </Col>
