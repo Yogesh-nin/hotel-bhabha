@@ -6,9 +6,14 @@ function SliderCard() {
   return (
     <div className=" d-flex justify-content-center mt-5">
       <Card style={{ width: "19.5rem" }} className="mt-5 border-0">
-        <Card.Img variant="top" src={img1} className="rounded-0" />
+        <Card.Img
+          variant="top"
+          alt="Card image"
+          src={img1}
+          className="rounded-0"
+        />
         <Card.Body className="p-0">
-          <Card.Title className=" fw-bold mt-2" style={{ fontSize: "18px" }}>
+          <Card.Title className=" fw-bold mt-2 card-title" style={{ fontSize: "18px" }}>
             Lorem ipsum dolor sit amet
           </Card.Title>
           <Card.Subtitle
@@ -17,7 +22,7 @@ function SliderCard() {
           >
             Dec 20th By Admin
           </Card.Subtitle>
-          <Card.Text className="text-wrap mt-3" style={{ fontSize: "14px" }}>
+          <Card.Text className="text-wrap mt-3 card-description" style={{ fontSize: "14px" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque euismod, nisi eu consectetur euismod, nisl nisl
           </Card.Text>

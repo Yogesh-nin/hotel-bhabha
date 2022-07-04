@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <Container className="my-5 p-4 about-us-container">
       <Row>
-        <Col md={3} className="col-area my-4">
+        <Col md={3} className="col-area my-4 animated animatedFadeInUp fadeInUp">
           <Row>
             <Col md={12}>
               <div className="text-area mb-4">
@@ -31,7 +31,7 @@ const AboutUs = () => {
           </Row>
         </Col>
 
-        <Col md={3} className="col-area my-4">
+        <Col md={3} className="col-area my-4 animated animatedFadeInUp fadeInUp">
           <Row>
             <Col md={12}>
               <div className="about-us-img">
@@ -55,7 +55,7 @@ const AboutUs = () => {
         </Col>
 
         <Col md={5} className="col-area-description my-4">
-          <div className="">
+          <div className="animated animatedFadeInUp fadeInUp">
             <h1>Pride of Rajkot: Hotel Bhaba</h1>
 
             <p>

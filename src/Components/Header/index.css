@@ -3,8 +3,9 @@
 }
 
 .nav-items {
-  font-size: 1.1rem;
+  font-size: 1rem;
   align-items: center;
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {
@@ -40,7 +41,8 @@
   border-radius: 0 0;
   border: 1px solid #35090b;
   padding: 5px 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .book-now-btn:hover {

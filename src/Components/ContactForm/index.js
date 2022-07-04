@@ -3,8 +3,7 @@ import React from "react";
 //styles
 import "./index.css";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
-
-//react-icons
+import { Link } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { SiGmail, SiGooglemaps } from "react-icons/si";
@@ -31,30 +30,32 @@ const ContactForm = (props) => {
                 <FaPhoneAlt /> +91-281-2220861
               </p>
               <p>
-                <FiMail /> info@hotelbhabha.com
+                <a className="link" href="mailto:info@hotelbhabha.com">
+                  <FiMail /> info@hotelbhabha.com
+                </a>
               </p>
             </div>
             <div>
               <ul className="social-icons list-unstyled d-flex justify-content-center">
                 <li>
-                  <a className="contact-icons contact-fb-icon">
+                  <Link to="#" className="contact-icons contact-fb-icon">
                     <FaFacebookF size={24} className="" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="contact-icons contact-ig-icon">
+                  <Link to="#" className="contact-icons contact-ig-icon">
                     <BsInstagram size={24} className="" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="contact-icons contact-mail-icon">
+                  <Link to="#" className="contact-icons contact-mail-icon">
                     <SiGmail size={24} className="" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="contact-icons contact-map-icon">
+                  <Link to="#" className="contact-icons contact-map-icon">
                     <SiGooglemaps size={24} className="" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
