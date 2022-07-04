@@ -18,8 +18,17 @@
     font-weight: 500;
     background-color: #F8F9FA;
 }
-
+.facility-text h3{
+    font-size: 30px;
+}
 .facility-item:hover .facility-text{
     background-color: #21CC7A;
     color: #ffffff;
+}
+
+.facility-title h2{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Old Standard TT', serif;
+
 }

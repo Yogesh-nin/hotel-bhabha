@@ -13,3 +13,14 @@
     font-size: 32px !important;
   }
 }
+
+.card-title{
+  font-size: 25px !important;
+  font-family: 'Old Standard TT', serif;
+  line-height: 45px;
+}
+
+.card-description{
+  font-size: 16px !important;
+  
+}

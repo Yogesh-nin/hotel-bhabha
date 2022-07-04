@@ -7,8 +7,8 @@ const Facilities = () => {
   return (
     <Container>
         <Row>
-            <div className="text-center">
-                <h1>Facilities</h1>
+            <div className="text-center facility-title">
+                <h2>Facilities</h2>
             </div>
             
             <Col sm={12} md>

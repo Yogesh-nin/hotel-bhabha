@@ -6,12 +6,12 @@
 }
 .contact h1 {
   font-size: 8vw;
-  font-weight: bold;
-  color: #fff;
+  font-weight: 700;
+  color: #ffffff;
   position: absolute;
   z-index: 2;
   margin-top: 5vh;
-
+  font-family: 'Old Standard TT', serif;
   display: flex;
 }
 
