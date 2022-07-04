@@ -1,8 +1,10 @@
 import React from "react";
-import {Carousel} from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
+
+//images
 import slideimg1 from "../../Assets/images/DSC00777.jpg";
 import slideimg2 from "../../Assets/images/DSC00754.jpg";
-import slideimg3 from "../../Assets/images/slideimg3.jpeg";
+import slideimg3 from "../../Assets/images/slideimg3.jpg";
 
 const Slider = (props) => {
   return (

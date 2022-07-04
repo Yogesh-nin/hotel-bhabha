@@ -1,6 +1,6 @@
 import Card from "react-bootstrap/Card";
 
-import img1 from "../../Assets/images/DSC00777.jpg";
+import img1 from "../../Assets/images/slideimg3.jpg";
 
 function SliderCard() {
   return (
