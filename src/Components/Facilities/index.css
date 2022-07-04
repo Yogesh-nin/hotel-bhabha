@@ -1,0 +1,25 @@
+.facility-item{
+    margin: 5px 0;
+}
+
+.facility-icon{
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    margin-bottom: -30px;
+    color: #21CC7A;
+}
+
+.facility-text{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: #F8F9FA;
+}
+
+.facility-item:hover .facility-text{
+    background-color: #21CC7A;
+    color: #ffffff;
+}
