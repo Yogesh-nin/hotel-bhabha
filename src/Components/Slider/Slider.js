@@ -1,5 +1,5 @@
 import React from "react";
-import {Carousel} from "react-bootstrap";
+import {Carousel} from "react-bootstrap"
 
 const Slider = (props) => {
   return (

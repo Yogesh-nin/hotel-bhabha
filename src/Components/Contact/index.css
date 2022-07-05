@@ -11,7 +11,7 @@
   position: absolute;
   z-index: 2;
   margin-top: 5vh;
-  font-family: 'Old Standard TT', serif;
+  font-family: "Old Standard TT", serif;
   display: flex;
 }
 
@@ -19,6 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .address-card {
@@ -29,4 +30,3 @@
   height: 100%;
   padding: 25px;
 }
-

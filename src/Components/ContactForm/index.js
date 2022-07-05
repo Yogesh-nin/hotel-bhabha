@@ -1,12 +1,16 @@
 import React from "react";
+
+//styles
+import "./index.css";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { SiGmail, SiGooglemaps } from "react-icons/si";
 import { FaHotel, FaPhoneAlt } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import "./index.css";
+
+//component
 import Map from "../../Components/Map";
 
 const ContactForm = (props) => {
@@ -26,7 +30,9 @@ const ContactForm = (props) => {
                 <FaPhoneAlt /> +91-281-2220861
               </p>
               <p>
-                <a className="link" href="mailto:info@hotelbhabha.com"><FiMail /> info@hotelbhabha.com</a>
+                <a className="link" href="mailto:info@hotelbhabha.com">
+                  <FiMail /> info@hotelbhabha.com
+                </a>
               </p>
             </div>
             <div>
