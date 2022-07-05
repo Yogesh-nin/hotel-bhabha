@@ -41,7 +41,8 @@ function CardSlider() {
   };
   return (
     <>
-      <div className="p-5">
+      <div className="card-slider-container text-center p-5">
+        <h2>Our Rooms</h2>
         <Slider {...settings}>
           <SliderCard />
           <SliderCard />

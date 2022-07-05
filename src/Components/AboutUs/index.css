@@ -1,5 +1,5 @@
 .about-us-container{
-    background-color: #F8F8F8;
+    background-color: #F3EEE7;
 }
 
 .text-area{
@@ -89,4 +89,11 @@ figure {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
+}
+
+@media screen and (max-width: 768px){
+    .col-area-description h1{
+        font-size: 38px;
+    }
+    
 }

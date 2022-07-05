@@ -1,7 +1,7 @@
 .footer{
-  background-color: #675556;
+  background-color: #ffffff;
   padding: 10px 0;
-  color: #ffffff;
+  color: #000000;
 }
 
 .instagram-icon{
@@ -58,7 +58,7 @@
 }
 
 .footer-list-items a{
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
