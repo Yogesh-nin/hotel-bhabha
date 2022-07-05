@@ -63,7 +63,7 @@ function Footer() {
         </Row>
         <hr />
         <Row>
-        <div className="d-lg-flex justify-content-between px-5 p-2 align-middle text-light   ">
+        <div className="d-lg-flex justify-content-between px-5 p-2 align-middle  ">
           {/* <p className="text-center">info@hotelbhabha.com</p> */}
           <p className="text-center">2010 © Copyright Hotel BhaBha.</p>
         </div>

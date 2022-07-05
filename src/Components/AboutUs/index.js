@@ -7,54 +7,61 @@ import "./index.css";
 const AboutUs = () => {
   return (
     <Container className="my-5 p-4 about-us-container">
-      <Row>
-        <Col md={3} className="col-area my-4 animated animatedFadeInUp fadeInUp">
+      <Row className="d-flex justify-content-between">
+        <Col md={12} lg={6}>
           <Row>
-            <Col md={12}>
-              <div className="text-area mb-4">
-                <div className="d-flex justify-content-center my-2">
-                  <FaFacebookF size={48} className="" />
-                </div>
+            <Col md={6} className="col-area my-4 animated animatedFadeInUp fadeInUp">
+              <Row>
+                <Col md={12}>
+                  <div className="text-area mb-4">
+                    <div className="d-flex justify-content-center my-2">
+                      <FaFacebookF size={48} className="" />
+                    </div>
 
-                <h4 className="text-center my-3">title</h4>
-                <p className="text-center">
-                  Far Far away, behind the word mountains, far from countries
-                  vokalia
-                </p>
-              </div>
+                    <h4 className="text-center my-3">title</h4>
+                    <p className="text-center">
+                      Far Far away, behind the word mountains, far from countries
+                      vokalia
+                    </p>
+                  </div>
+                </Col>
+                <Col md={12}>
+                  <div className="about-us-img">
+                    <figure><img src={img1} alt="About us" width="100%" /></figure>
+                  </div>
+                </Col>
+              </Row>
+            
+
             </Col>
-            <Col md={12}>
-              <div className="about-us-img">
-                <figure><img src={img1} alt="About us" width="100%" /></figure>
-              </div>
+
+            <Col md={6} className="col-area my-4 animated animatedFadeInUp fadeInUp">
+              <Row>
+                <Col md={12}>
+                  <div className="about-us-img">
+                    <figure><img src={img1} alt="About us " width="100%" /></figure>
+                  </div>
+                </Col>
+
+                <Col md={12}>
+                  <div className="text-area mt-4">
+                    <div className="d-flex justify-content-center my-2">
+                      <FaFacebookF size={48} className="" />
+                    </div>
+                    <h4 className="text-center my-3">title</h4>
+                    <p className="text-center">
+                      Far Far away, behind the word mountains, far from countries
+                      vokalia
+                    </p>
+                  </div>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Col>
+        
 
-        <Col md={3} className="col-area my-4 animated animatedFadeInUp fadeInUp">
-          <Row>
-            <Col md={12}>
-              <div className="about-us-img">
-                <figure><img src={img1} alt="About us " width="100%" /></figure>
-              </div>
-            </Col>
-
-            <Col md={12}>
-              <div className="text-area mt-4">
-                <div className="d-flex justify-content-center my-2">
-                  <FaFacebookF size={48} className="" />
-                </div>
-                <h4 className="text-center my-3">title</h4>
-                <p className="text-center">
-                  Far Far away, behind the word mountains, far from countries
-                  vokalia
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Col>
-
-        <Col md={5} className="col-area-description my-4">
+        <Col md={12} lg={5} className="col-area-description my-4">
           <div className="animated animatedFadeInUp fadeInUp">
             <h1>Pride of Rajkot: Hotel Bhaba</h1>
 

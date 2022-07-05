@@ -1,0 +1,47 @@
+
+.right-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-col h2{
+    font-size: 64px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-family: 'Old Standard TT', serif;
+}
+
+@media screen and (max-width: 768px){
+    .right-col h2{
+        font-size: 38px;
+    }
+    
+}
+
+.room-banner{
+    background-image: url("../../Assets/images/contact.jpg");
+    height: 90vh;
+    background-size: cover;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.room-banner h1{
+    font-size: 8vw;
+    font-weight: 700;
+    color: #ffffff;
+    z-index: 2;
+    margin-top: 5vh;
+    font-family: 'Old Standard TT', serif;
+    
+}
+@media screen and (max-width: 768px) {
+    .room-banner{
+        height: 70vh;
+        object-fit: cover;
+    }
+}

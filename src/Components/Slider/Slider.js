@@ -1,10 +1,5 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-
-//images
-import slideimg1 from "../../Assets/images/DSC00777.jpg";
-import slideimg2 from "../../Assets/images/DSC00754.jpg";
-import slideimg3 from "../../Assets/images/slideimg3.jpg";
+import {Carousel} from "react-bootstrap"
 
 const Slider = (props) => {
   return (
@@ -13,22 +8,22 @@ const Slider = (props) => {
       <Carousel fade indicators={false} controls={false}>
         <Carousel.Item>
           <img
-            className="d-block w-100 vh-100 "
-            src={slideimg1}
+            className="d-block w-100 vh-100"
+            src={props.img1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 vh-100"
-            src={slideimg2}
+            src={props.img2}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 vh-100"
-            src={slideimg3}
+            src={props.img3}
             alt="Third slide"
           />
         </Carousel.Item>
