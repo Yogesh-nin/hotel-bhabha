@@ -1,34 +1,28 @@
 import React from "react";
 import "./index.css";
-import "react-date-range/dist/styles.css"; // main style file
-import "react-date-range/dist/theme/default.css";
-import { DateRangePicker } from "react-date-range";
-// import { FaRegCalendarAlt } from "react-icons/fa";
+
+import DatePicker from "./DatePicker";
 
 import banner from "../../Assets/images/contact.jpg";
+import RoomBookingCard from "./RoomBookingCard";
 
 function BookingDetails(props) {
-  // function handleSelect(date) {
-  //   console.log(date);
-  // }
-
-  const selectionRange = {
-    startDate: new Date(),
-    endDate: new Date(),
-    key: "selection",
-  };
-
   return (
     <div>
-      <div className="room-banner">
-        <img src={banner} alt="banner" className="img-fluid" />
+      <div className="mt-5">
+        <img src={banner} alt="banner" className="img-fluid mt-5" />
       </div>
-      <div className="">
-        <h2> Select a Room</h2>
-        <DateRangePicker
-          ranges={[selectionRange]}
-          onChange={(item) => selectionRange([item.selection])}
-        />
+      <div className="mt-5 card-container">
+        <div className="d-flex flex-column ">
+          <DatePicker />
+          <h1 className="mt-5 mb-4"> Select a Room</h1>
+        </div>
+        <div className="">
+          <RoomBookingCard />
+          <RoomBookingCard />
+          <RoomBookingCard />
+          <RoomBookingCard />
+        </div>
       </div>
     </div>
   );

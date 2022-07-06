@@ -1,12 +1,32 @@
-.room-banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
+.room-card {
+  width: 46rem;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
-/* input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
-  -webkit-appearance: none;
-} */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+  .room-card {
+    width: 22rem;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 10rem;
+  }
+}
