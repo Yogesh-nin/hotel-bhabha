@@ -1,6 +1,6 @@
 import React from "react";
 import {Carousel} from "react-bootstrap"
-
+import './slider.css'
 const Slider = (props) => {
   return (
     <div>
@@ -8,21 +8,21 @@ const Slider = (props) => {
       <Carousel fade indicators={false} controls={false}>
         <Carousel.Item>
           <img
-            className="d-block w-100 vh-100"
+            className="slide-img d-block w-100"
             src={props.img1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 vh-100"
+            className="slide-img d-block w-100"
             src={props.img2}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 vh-100"
+            className="slide-img d-block w-100"
             src={props.img3}
             alt="Third slide"
           />

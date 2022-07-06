@@ -12,9 +12,7 @@ import "./index.css";
 const RoomOverview = () => {
   return (
     <div>
-      <div className="room-banner img-fluid">
-          {/* <img src={contact1} alt="Contact Us" className="img img-fluid" /> */}
-
+      <div className="room-banner">
           <h1>Deluxe Room</h1>
        </div>
       <Container className="room-overview-container my-4">
@@ -24,15 +22,15 @@ const RoomOverview = () => {
               <Slider img1={slideimg1} img2={slideimg2} img3={slideimg3} />
             </div>
           </Col>
-          <Col md={5} className="right-col d-flex">
-              <div>
-                <h2>A view to remember</h2>
-                <p>Our Deluxe Room overlooks the great dunes of Noordwijk and the ever-shifting waves of the North Sea. The room is decorated with beautifully designed furniture and a handmade king size bed. This spacious room also boasts an extraordinary view of the famous Noordwijk sunset.</p>
-                
-              </div>
-              <div className="">
-                <img src={about2} className="" width="90%" />
-              </div>
+          <Col md={6} className="right-col d-flex">
+            <div>
+              <h2>A view to remember</h2>
+              <p>Our Deluxe Room overlooks the great dunes of Noordwijk and the ever-shifting waves of the North Sea. The room is decorated with beautifully designed furniture and a handmade king size bed. This spacious room also boasts an extraordinary view of the famous Noordwijk sunset.</p>
+              
+            </div>
+            <div className="">
+              <img src={about2} className="img-thumbnail" width="90%" />
+            </div>
           </Col>
         </Row>
       </Container>

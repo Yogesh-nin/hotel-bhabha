@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
 }
 
 /* input[type="date"]::-webkit-inner-spin-button,
