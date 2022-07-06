@@ -6,7 +6,7 @@ import Facilities from "../Components/Facilities";
 import CardSlider from "../Components/CardSlider/CardSlider";
 
 
-const Room = () => {
+const Room = () =>{
   return (
     <div>
         <Header />

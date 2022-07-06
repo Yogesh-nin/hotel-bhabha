@@ -7,3 +7,9 @@
         height: 50vh;
     }
 }
+
+@media screen and (max-width: 992px){
+    .slide-img{
+        height: 75vh;
+    }
+}

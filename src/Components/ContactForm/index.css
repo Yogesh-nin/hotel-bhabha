@@ -101,3 +101,9 @@ Form .form-input {
   color: inherit;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px){
+  .form-container h1{
+    font-size: 38px;
+  }
+}

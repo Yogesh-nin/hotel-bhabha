@@ -15,12 +15,6 @@
     font-family: 'Old Standard TT', serif;
 }
 
-@media screen and (max-width: 768px){
-    .right-col h2{
-        font-size: 38px;
-    }
-    
-}
 
 .quote{
     color: #ffffff;
@@ -58,8 +52,11 @@
         object-fit: cover;
     }
     
-
     .quote{
         font-size: 12px;
+    }
+
+    .right-col h2{
+        font-size: 38px;
     }
 }

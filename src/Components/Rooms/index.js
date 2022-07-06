@@ -23,13 +23,13 @@ const RoomOverview = () => {
        </div>
       <Container className="room-overview-container">
         <Row className="d-flex justify-content-around">
-          <Col md={6}>
-            <div className="">
+          <Col md={7} lg={6}>
+            <div className="room-slider">
               <Slider img1={slideimg1} img2={slideimg2} img3={slideimg3} />
             </div>
           </Col>
-          <Col md={6} className="right-col d-flex">
-            <div>
+          <Col md={5} lg={6} className="right-col d-flex">
+            <div className="animated animatedFadeInUp fadeInUp">
               <h2>A view to remember</h2>
               <p>Our Deluxe Room overlooks the great dunes of Noordwijk and the ever-shifting waves of the North Sea. The room is decorated with beautifully designed furniture and a handmade king size bed. This spacious room also boasts an extraordinary view of the famous Noordwijk sunset.</p>
               

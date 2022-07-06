@@ -88,7 +88,10 @@ const Header = () => {
                     Family room
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/rooms">
-                    Delux AC room
+                    Executive room
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/rooms">
+                    Superior room
                   </NavDropdown.Item>
                 </div>
               </NavDropdown>

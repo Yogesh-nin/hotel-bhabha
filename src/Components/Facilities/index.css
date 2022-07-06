@@ -36,3 +36,9 @@
     font-family: 'Old Standard TT', serif;
 
 }
+
+@media screen and (max-width: 768px){
+  .facility-title h2{
+    font-size: 38px;
+  }
+}
