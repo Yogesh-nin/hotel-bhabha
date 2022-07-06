@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 
-import about1 from "../../Assets/images/about-grid-large.jpg";
-import about2 from "../../Assets/images/about-grid-small.jpg";
+import about1 from "../../Assets/images/about-grid-large.jpeg";
+import about2 from "../../Assets/images/about-grid-small.jpeg";
 
 function AboutUsGrid() {
   return (
@@ -14,7 +14,7 @@ function AboutUsGrid() {
             <img src={about2} alt="aboutus2" className="img-small" />
           </div>
         </div>
-        <div className="about-us py-5 ">
+        <div className="about-us py-5 animated animatedFadeInUp fadeInUp">
           <h1 className="">About Us</h1>
           <p className="mt-3">
             Quiet enough away from the hustle and bustle, and close enough to

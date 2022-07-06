@@ -1,11 +1,62 @@
-.room-banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.booking-banner{
+    background-image: url("../../Assets/images/contact.jpeg");
+    height: 90vh;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
-/* input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
-  -webkit-appearance: none;
-} */
+.booking-banner h1{
+  font-size: 8vw;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: 2;
+  margin-top: 5vh;
+  font-family: 'Old Standard TT', serif;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .booking-banner{
+      height: 70vh;
+      object-fit: cover;
+  }
+}
+
+.room-card {
+  width: 46rem;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+  .room-card {
+    width: 22rem;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 10rem;
+  }
+}

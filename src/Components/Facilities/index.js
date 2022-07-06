@@ -5,7 +5,7 @@ import { IoIosBed } from 'react-icons/io'
 import './index.css'
 const Facilities = () => {
   return (
-    <Container>
+    <Container className="facility-container">
         <Row>
             <div className="text-center facility-title">
                 <h2>Facilities</h2>

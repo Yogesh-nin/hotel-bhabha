@@ -15,8 +15,9 @@ import Map from "../../Components/Map";
 
 const ContactForm = (props) => {
   return (
-    <Container className="mb-5 form-container">
+    <Container className="form-container">
       <Row className="justify-content-between p-3">
+        <h1>Contact Us</h1>
         <Col lg={5}>
           <div className=" ">
             <div className="address-card ">

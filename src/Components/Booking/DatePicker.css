@@ -1,0 +1,16 @@
+.date-btn {
+  display: flex;
+  width: 300px;
+  height: 75px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBox {
+  background-color: transparent;
+  border: 0px solid;
+  height: 20px;
+  width: 160px;
+  outline: none;
+}

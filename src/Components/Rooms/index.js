@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import about2 from "../../Assets/images/about-grid-small.jpg";
-import contact1 from "../../Assets/images/contact.jpg";
 import Slider from '../Slider/Slider'
 import slideimg1 from "../../Assets/images/sliderimg-1.jpeg";
 import slideimg2 from "../../Assets/images/sliderimg-2.jpeg";
@@ -13,9 +12,16 @@ const RoomOverview = () => {
   return (
     <div>
       <div className="room-banner">
-          <h1>Deluxe Room</h1>
+          <div className="animated animatedFadeInUp fadeInUp">
+            <h1>Deluxe Room</h1>
+
+            <blockquote className="quote">
+              "You kind of owe it to yourself to do all the things you've dreamed of."
+            </blockquote>
+          </div>
+          
        </div>
-      <Container className="room-overview-container my-4">
+      <Container className="room-overview-container">
         <Row className="d-flex justify-content-around">
           <Col md={6}>
             <div className="">

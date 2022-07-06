@@ -1,5 +1,14 @@
 .form-container {
   background-color: #F3EEE7;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form-container h1{
+    font-size: 64px;
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    margin: 10px 0px;
 }
 
 .social-icons {

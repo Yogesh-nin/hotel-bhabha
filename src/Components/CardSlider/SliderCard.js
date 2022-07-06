@@ -4,7 +4,7 @@ import img1 from "../../Assets/images/slideimg3.jpg";
 
 function SliderCard() {
   return (
-    <div className=" d-flex justify-content-center mt-5">
+    <div className=" d-flex justify-content-center">
       <Card style={{ width: "19.5rem" }} className="mt-5 border-0">
         <Card.Img
           variant="top"

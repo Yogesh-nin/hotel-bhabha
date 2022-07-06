@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import "./index.css";
 const AboutUs = () => {
   return (
-    <Container className="my-5 p-4 about-us-container">
+    <Container className="p-4 about-us-container">
       <Row className="d-flex justify-content-between">
         <Col md={12} lg={6}>
           <Row>
