@@ -1,0 +1,46 @@
+.amneties-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.amneties-container h1{
+    font-size: 64px;
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 768px){
+    .amneties-container h1{
+      font-size: 38px;
+    }
+  }
+
+
+.amneties-item{
+    text-align: center;
+    padding: 20px;
+    border-radius: 50% 50% 50% 0px;
+    box-shadow: 8px 8px 5px #F8F8F8;
+    border: 1px solid #F8F8F8;
+    background-color: #F8F9FA;
+
+    
+}
+
+.amneties-icon{
+    color: #C8AC86;
+}
+.amneties-item:hover .amneties-icon{
+    color: #ffffff;
+}
+
+.amneties-item:hover{
+    background-color: #C8AC86;
+    color: #ffffff;
+}
+
+.icon-text{
+    font-size: 18px;
+}
+

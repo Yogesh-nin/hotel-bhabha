@@ -11,6 +11,7 @@ import CardSlider from "../Components/CardSlider/CardSlider";
 import slideimg1 from "../Assets/images/sliderimg-1.jpeg";
 import slideimg2 from "../Assets/images/sliderimg-2.jpeg";
 import slideimg3 from "../Assets/images/sliderimg-3.jpeg";
+import Amneties from "../Components/Hotel-amneties";
 
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
       <Slider img1={slideimg1} img2={slideimg2} img3={slideimg3} />
       <AboutUs />
       <CardSlider />
+      <Amneties />
       <ContactForm />
       <Footer />
     </div>
