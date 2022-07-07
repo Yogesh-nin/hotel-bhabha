@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { FaWifi } from "react-icons/fa";
 import { IoIosBed } from 'react-icons/io'
+import { MdOutlineDoorSliding } from 'react-icons/md'
+
 import './index.css'
 const Facilities = () => {
   return (
@@ -36,11 +38,11 @@ const Facilities = () => {
             <Col sm={12} md>
                 <div className="facility-item">
                     <div className="d-flex justify-content-center ">
-                        <span className="facility-icon"><FaWifi size={48}  /></span>
+                        <span className="facility-icon"><MdOutlineDoorSliding size={48}  /></span>
                     </div>
                    
                     <div className="facility-text">
-                        <h3>Wifi</h3>
+                        <h3>Wardrobe</h3>
                     </div>
                 </div>
             </Col>

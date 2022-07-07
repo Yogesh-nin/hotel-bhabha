@@ -12,7 +12,7 @@
     background-color: #ffffff;
     padding: 20px 20px;
     margin-bottom: -30px;
-    color: #21CC7A;
+    color: #C8AC86;
 }
 
 .facility-text{
@@ -27,7 +27,7 @@
     font-size: 30px;
 }
 .facility-item:hover .facility-text{
-    background-color: #21CC7A;
+    background-color: #C8AC86;
     color: #ffffff;
 }
 
