@@ -59,7 +59,7 @@ function HallAndDiningHome() {
                         Far Far away, behind the word mountains, far from
                         countries vokalia
                       </p>
-                      <Button>Explore</Button>
+                      <Button className="book-now-btn">Explore</Button>
                     </div>
                   </Col>
                 </Row>
@@ -73,7 +73,7 @@ function HallAndDiningHome() {
                         Far Far away, behind the word mountains, far from
                         countries vokalia
                       </p>
-                      <Button className="">Explore</Button>
+                      <Button className="book-now-btn">Explore</Button>
                     </div>
                   </Col>
                 </Row>
