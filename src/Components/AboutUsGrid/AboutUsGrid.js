@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 
-import about1 from "../../Assets/images/about-grid-large.jpeg";
-import about2 from "../../Assets/images/about-grid-small.jpeg";
+import about1 from "../../Assets/images/about-grid-large.jpg";
+import about2 from "../../Assets/images/about-grid-small.jpg";
 
 function AboutUsGrid() {
   return (
