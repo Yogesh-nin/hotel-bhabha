@@ -43,6 +43,7 @@ figure {
   }
 
 .about-us-img figure img{
+    max-height: 200px;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;

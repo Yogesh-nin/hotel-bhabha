@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../../Assets/images/DSC00754.jpg";
+import img2 from "../../Assets/images/DSC00792.png";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaFacebookF } from "react-icons/fa";
 
@@ -39,7 +40,7 @@ const AboutUs = () => {
               <Row>
                 <Col md={12}>
                   <div className="about-us-img">
-                    <figure><img src={img1} alt="About us " width="100%" /></figure>
+                    <figure><img src={img2} alt="About us" /></figure>
                   </div>
                 </Col>
 

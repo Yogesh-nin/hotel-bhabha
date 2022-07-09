@@ -78,7 +78,7 @@ const Header = () => {
                 renderMenuOnMount={true}
               >
                 <div className="nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/rooms">
+                  <NavDropdown.Item as={Link} to="/room">
                     Standard room
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/rooms">
