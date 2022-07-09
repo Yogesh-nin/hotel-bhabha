@@ -1,5 +1,4 @@
 import Card from "react-bootstrap/Card";
-import { Container, Row, Col, Button } from "react-bootstrap";
 
 import img1 from "../../Assets/images/slideimg3.jpg";
 
@@ -35,21 +34,6 @@ function SliderCard() {
           </Card.Text>
         </Card.Body>
       </Card>
-      {/* <div className="d-flex" style={{ width: "19.5rem" }}>
-        <div className="w-30">
-          <img src={img1} className="img-fluid" alt="..." />
-        </div>
-        <div className="card-body">
-          <h5 className="">Card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" className="">
-            Go somewhere
-          </a>
-        </div>
-      </div> */}
     </div>
   );
 }

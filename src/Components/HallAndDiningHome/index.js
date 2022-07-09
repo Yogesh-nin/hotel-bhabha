@@ -5,7 +5,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import weeding from "../../Assets/images/weeding.jpg";
 
 import meeting from "../../Assets/images/meeting.jpg";
-import meeting2 from "../../Assets/images/meeting2.jpg";
+// import meeting2 from "../../Assets/images/meeting2.jpg";x
 
 import restaurant2 from "../../Assets/images/restaurant2.jpg";
 // import food1 from "../../Assets/images/food1.jpg";
