@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../../Assets/images/DSC00754.jpg";
+import read from "../../Assets/images/read.jpg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaFacebookF } from "react-icons/fa";
 
@@ -10,7 +11,10 @@ const AboutUs = () => {
       <Row className="d-flex justify-content-between">
         <Col md={12} lg={6}>
           <Row>
-            <Col md={6} className="col-area my-4 animated animatedFadeInUp fadeInUp">
+            <Col
+              md={6}
+              className="col-area my-4 animated animatedFadeInUp fadeInUp"
+            >
               <Row>
                 <Col md={12}>
                   <div className="text-area mb-4">
@@ -18,28 +22,33 @@ const AboutUs = () => {
                       <FaFacebookF size={48} className="" />
                     </div>
 
-                    <h4 className="text-center my-3">title</h4>
+                    <h4 className="text-center my-3">nvdeep</h4>
                     <p className="text-center">
-                      Far Far away, behind the word mountains, far from countries
-                      vokalia
+                      Far Far away, behind the word mountains, far from
+                      countries vokalia
                     </p>
                   </div>
                 </Col>
                 <Col md={12}>
                   <div className="about-us-img">
-                    <figure><img src={img1} alt="About us" width="100%" /></figure>
+                    <figure>
+                      <img src={read} alt="About us" width="100%" />
+                    </figure>
                   </div>
                 </Col>
               </Row>
-            
-
             </Col>
 
-            <Col md={6} className="col-area my-4 animated animatedFadeInUp fadeInUp">
+            <Col
+              md={6}
+              className="col-area my-4 animated animatedFadeInUp fadeInUp"
+            >
               <Row>
                 <Col md={12}>
                   <div className="about-us-img">
-                    <figure><img src={img1} alt="About us " width="100%" /></figure>
+                    <figure>
+                      <img src={img1} alt="About us " width="100%" />
+                    </figure>
                   </div>
                 </Col>
 
@@ -50,8 +59,8 @@ const AboutUs = () => {
                     </div>
                     <h4 className="text-center my-3">title</h4>
                     <p className="text-center">
-                      Far Far away, behind the word mountains, far from countries
-                      vokalia
+                      Far Far away, behind the word mountains, far from
+                      countries vokalia
                     </p>
                   </div>
                 </Col>
@@ -59,7 +68,6 @@ const AboutUs = () => {
             </Col>
           </Row>
         </Col>
-        
 
         <Col md={12} lg={5} className="col-area-description my-4">
           <div className="animated animatedFadeInUp fadeInUp">
