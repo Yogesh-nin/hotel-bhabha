@@ -78,19 +78,19 @@ const Header = () => {
                 renderMenuOnMount={true}
               >
                 <div className="nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/room">
+                  <NavDropdown.Item as={Link} to="/rooms/standard-room">
                     Standard room
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms">
+                  <NavDropdown.Item as={Link} to="/rooms/delux-room">
                     Delux room
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms">
+                  <NavDropdown.Item as={Link} to="/rooms/family-room/">
                     Family room
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms">
+                  <NavDropdown.Item as={Link} to="/rooms/executive-room">
                     Executive room
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms">
+                  <NavDropdown.Item as={Link} to="/rooms/superior-room">
                     Superior room
                   </NavDropdown.Item>
                 </div>

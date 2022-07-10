@@ -28,7 +28,7 @@ function Gallery(props) {
 
   return (
     <>
-      <div className="">
+      <div className="gallery">
         <div className="text-center mt-5">
           <h1>Our Gallery</h1>
         </div>

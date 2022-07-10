@@ -8,16 +8,20 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Room from "./Pages/Room";
 import Booking from "./Pages/Booking";
+import RoomOverview from './Components/Rooms'
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/rooms" element={<Room />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/booking" element={<Booking />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/rooms" element={<Room />}>
+          <Route exact path=":id" element={<Room />} />
+          <Route exact path=":id" element={<Room />} />
+        </Route>
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/booking" element={<Booking />} />
       </Routes>
     </div>
   );

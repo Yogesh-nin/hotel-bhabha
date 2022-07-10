@@ -1,5 +1,5 @@
 import React from "react";
-
+import './index.css'
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import weeding from "../../Assets/images/weeding.jpg";
@@ -14,7 +14,7 @@ import restaurant2 from "../../Assets/images/restaurant2.jpg";
 function HallAndDiningHome() {
   return (
     <>
-      <Container>
+      <Container id="halls-home">
         <Row>
           <Col md={12}>
             <Row>

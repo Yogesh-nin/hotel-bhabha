@@ -1,9 +1,11 @@
 import React from "react";
 import img1 from "../../Assets/images/DSC00754.jpg";
+import food2 from '../../Assets/images/food2.jpg'
 
-import read from "../../Assets/images/read.jpg";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { FaFacebookF } from "react-icons/fa";
+
+import { IoBed, IoRestaurant } from 'react-icons/io5'
+
 
 import "./index.css";
 const AboutUs = () => {
@@ -20,10 +22,10 @@ const AboutUs = () => {
                 <Col md={12}>
                   <div className="text-area mb-4">
                     <div className="d-flex justify-content-center my-2">
-                      <FaFacebookF size={48} className="" />
+                      <IoRestaurant size={48} className="" />
                     </div>
 
-                    <h4 className="text-center my-3">nvdeep</h4>
+                    <h4 className="text-center my-3">Best Food</h4>
                     <p className="text-center">
                       Far Far away, behind the word mountains, far from
                       countries vokalia
@@ -33,7 +35,7 @@ const AboutUs = () => {
                 <Col md={12}>
                   <div className="about-us-img">
                     <figure>
-                      <img src={read} alt="About us" width="100%" />
+                      <img src={food2} alt="About us" width="100%" />
                     </figure>
                   </div>
                 </Col>
@@ -57,9 +59,9 @@ const AboutUs = () => {
                 <Col md={12}>
                   <div className="text-area mt-4">
                     <div className="d-flex justify-content-center my-2">
-                      <FaFacebookF size={48} className="" />
+                      <IoBed size={48} className="" />
                     </div>
-                    <h4 className="text-center my-3">title</h4>
+                    <h4 className="text-center my-3">Cozy Bed</h4>
                     <p className="text-center">
                       Far Far away, behind the word mountains, far from
                       countries vokalia

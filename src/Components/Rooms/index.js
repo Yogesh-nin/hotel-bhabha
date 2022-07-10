@@ -8,12 +8,12 @@ import slideimg3 from "../../Assets/images/sliderimg-3.jpeg";
 
 import "./index.css";
 
-const RoomOverview = () => {
+const RoomOverview = (props) => {
   return (
     <div>
       <div className="room-banner">
           <div className="animated animatedFadeInUp fadeInUp">
-            <h1>Deluxe Room</h1>
+            <h1>{props.roomTitle}</h1>
 
             <blockquote className="quote">
               "You kind of owe it to yourself to do all the things you've dreamed of."
