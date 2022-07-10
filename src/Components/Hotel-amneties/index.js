@@ -8,7 +8,7 @@ const Amneties = () => {
   return (
     <Container className="amneties-container">
         <Row>
-            <h1>Our Hotel Offer</h1>
+            <h1 className="division-heading">Our Hotel Offer</h1>
             <Col md={4} lg={2}>
                 <div className="amneties-item">
                    <span className="amneties-icon"><FaWifi size={56} /></span>

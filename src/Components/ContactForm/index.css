@@ -4,9 +4,7 @@
   margin-bottom: 50px;
 }
 
-.form-container h1{
-    font-size: 64px;
-    font-family: 'Old Standard TT', serif;
+.form-container h2{
     text-align: center;
     margin: 10px 0px;
 }
@@ -102,8 +100,3 @@ Form .form-input {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px){
-  .form-container h1{
-    font-size: 38px;
-  }
-}

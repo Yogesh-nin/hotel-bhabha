@@ -1,3 +1,20 @@
 .bg-dark{
     background-color: #1A2238;
 }
+
+.division-heading{
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width: 768px){
+    .division-heading{
+      font-size: 38px;
+    }
+  }
+
+.division-subheading{
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    line-height: 38px;
+}

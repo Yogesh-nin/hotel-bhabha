@@ -9,10 +9,8 @@
     justify-content: space-between;
 }
 .right-col h2{
-    font-size: 64px;
     line-height: 1.5;
     margin-bottom: 13px;
-    font-family: 'Old Standard TT', serif;
 }
 
 
@@ -42,7 +40,7 @@
     color: #ffffff;
     z-index: 2;
     margin-top: 5vh;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
     
 }

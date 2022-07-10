@@ -9,6 +9,7 @@ import AboutUs from "../Components/AboutUs";
 import CardSlider from "../Components/CardSlider/CardSlider";
 import HallAndDiningHome from "../Components/HallAndDiningHome";
 import Amneties from "../Components/Hotel-amneties";
+import RoomSlider from '../Components/RoomSlider/RoomSlider'
 
 import slideimg1 from "../Assets/images/sliderimg-1.jpeg";
 import slideimg2 from "../Assets/images/sliderimg-2.jpeg";
@@ -20,6 +21,7 @@ function Home() {
       <Header />
       <Slider img1={slideimg1} img2={slideimg2} img3={slideimg3} />
       <AboutUs />
+      <RoomSlider />
       <CardSlider />
       <HallAndDiningHome />
       <Amneties />

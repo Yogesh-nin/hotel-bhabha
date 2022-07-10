@@ -15,7 +15,7 @@ function AboutUsGrid() {
           </div>
         </div>
         <div className="about-us py-5 animated animatedFadeInUp fadeInUp">
-          <h1 className="">About Us</h1>
+          <h2 className="division-heading">About Us</h2>
           <p className="mt-3">
             Quiet enough away from the hustle and bustle, and close enough to
             railway and bus station Bhabha Hotel is built in elegance to greet

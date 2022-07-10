@@ -29,10 +29,8 @@
 }
 
 .col-area-description h1{
-    font-size: 64px;
     line-height: 1.5;
     margin-bottom: 15px;
-    font-family: 'Old Standard TT', serif;
 }
 
 figure {
@@ -92,11 +90,4 @@ figure {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-}
-
-@media screen and (max-width: 768px){
-    .col-area-description h1{
-        font-size: 38px;
-    }
-    
 }

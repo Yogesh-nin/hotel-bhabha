@@ -21,7 +21,7 @@
 
 .card-title{
   font-size: 25px !important;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Playfair Display', serif;
   line-height: 45px;
 }
 
@@ -30,13 +30,3 @@
   
 }
 
-.card-slider-container h2{
-    font-size: 64px;
-    font-family: 'Old Standard TT', serif;
-}
-
-@media screen and (max-width: 768px){
-  .card-slider-container h2{
-    font-size: 38px;
-  }
-}

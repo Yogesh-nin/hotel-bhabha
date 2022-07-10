@@ -16,6 +16,7 @@ function HallAndDiningHome() {
     <>
       <Container id="halls-home">
         <Row>
+          <h2 className="division-heading">Dine & Shine</h2>
           <Col md={12}>
             <Row>
               <Col md={6} className="col-area my-4 ">
@@ -52,8 +53,8 @@ function HallAndDiningHome() {
                 <Row>
                   <Col md={12}>
                     <div className="p-4 mt-4 bg-grey">
-                      <h3 className=" my-3">
-                        We organize best in town buissness meeting and seminars
+                      <h3 className="division-subheading my-3">
+                        We organize best in town business meeting and seminars
                       </h3>
                       <p className="">
                         Far Far away, behind the word mountains, far from
@@ -68,7 +69,7 @@ function HallAndDiningHome() {
                 <Row>
                   <Col md={12} className="mb-4">
                     <div className="p-4 mt-4 bg-grey">
-                      <h2 className=" my-3">Explore the tradional taste..</h2>
+                      <h2 className="division-subheading my-3">Explore the traditional taste..</h2>
                       <p className="">
                         Far Far away, behind the word mountains, far from
                         countries vokalia

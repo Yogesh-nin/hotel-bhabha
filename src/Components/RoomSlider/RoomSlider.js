@@ -5,21 +5,24 @@ import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./index.css";
 
-import SliderCard from "./SliderCard";
+import SliderElement from './Slider'
 
-function CardSlider() {
+
+function RoomSlider() {
   var settings = {
     dots: false,
-    arrow: true,
+    arrow: false,
     centerPadding: 10,
-    nextArrow: <GrLinkNext />,
-    prevArrow: <GrLinkPrevious />,
-    infinite: true,
+    // nextArrow: <GrLinkNext />,
+    // prevArrow: <GrLinkPrevious />,
+    infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1.6,
+    centerMode: true,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
     responsive: [
       {
         breakpoint: 968,
@@ -41,19 +44,18 @@ function CardSlider() {
   };
   return (
     <>
-      <div className="card-slider-container p-5">
-        <h2 className="division-heading">Our Rooms</h2>
-        <Slider {...settings}>
-          <SliderCard />
-          <SliderCard />
-          <SliderCard />
-          <SliderCard />
-          <SliderCard />
-          <SliderCard />
-        </Slider>
+      <div className="room-slider-container p-5">
+        <h2 className="division-heading">Stay & Live</h2>
+            <Slider {...settings}>
+                <SliderElement />
+                <SliderElement />
+                <SliderElement />
+                <SliderElement />
+                <SliderElement />
+            </Slider>
       </div>
     </>
   );
 }
 
-export default CardSlider;
+export default RoomSlider;

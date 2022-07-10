@@ -8,7 +8,6 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Room from "./Pages/Room";
 import Booking from "./Pages/Booking";
-import RoomOverview from './Components/Rooms'
 
 function App() {
   return (

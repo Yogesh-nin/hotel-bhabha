@@ -30,7 +30,7 @@ const RoomOverview = (props) => {
           </Col>
           <Col md={5} lg={6} className="right-col d-flex">
             <div className="animated animatedFadeInUp fadeInUp">
-              <h2>A view to remember</h2>
+              <h2 className="division-heading">A view to remember</h2>
               <p>Our Deluxe Room overlooks the great dunes of Noordwijk and the ever-shifting waves of the North Sea. The room is decorated with beautifully designed furniture and a handmade king size bed. This spacious room also boasts an extraordinary view of the famous Noordwijk sunset.</p>
               
             </div>

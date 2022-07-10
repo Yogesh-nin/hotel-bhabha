@@ -39,11 +39,8 @@
   margin-left: 5%;
 }
 
-.about-us h1{
+.about-us h2{
   font-size: 64px;
-  /* line-height: 1.5; */
-  /* margin-bottom: 15px; */
-  font-family: 'Old Standard TT', serif;
 }
 
 .pride-heritage {
@@ -70,9 +67,4 @@
   }
 }
 
-@media screen and (max-width: 768px){
-  .about-us h2{
-    font-size: 38px;
-  }
-}
 

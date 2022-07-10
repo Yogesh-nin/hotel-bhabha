@@ -4,10 +4,7 @@
 }
 
 .amneties-container h1{
-    font-size: 64px;
-    font-family: 'Old Standard TT', serif;
-    text-align: center;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 
 
@@ -40,10 +37,6 @@
 }
 
 @media screen and (max-width: 768px){
-    .amneties-container h1{
-      font-size: 38px;
-    }
-
     .amneties-item{
         border-radius: 0%;
     }

@@ -75,7 +75,7 @@ const AboutUs = () => {
 
         <Col md={12} lg={5} className="col-area-description my-4">
           <div className="animated animatedFadeInUp fadeInUp">
-            <h1>Pride of Rajkot: Hotel Bhaba</h1>
+            <h1 className="division-heading">Pride of Rajkot: Hotel Bhaba</h1>
 
             <p>
               The authentic architectural construction and custom-built room

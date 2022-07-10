@@ -17,7 +17,7 @@ const ContactForm = (props) => {
   return (
     <Container className="form-container">
       <Row className="justify-content-between p-3">
-        <h1>Contact Us</h1>
+        <h2 className="division-heading text-center">Contact Us</h2>
         <Col lg={5}>
           <div className=" ">
             <div className="address-card ">

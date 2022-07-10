@@ -30,7 +30,7 @@ function Gallery(props) {
     <>
       <div className="gallery">
         <div className="text-center mt-5">
-          <h1>Our Gallery</h1>
+          <h2 className="division-heading">Our Gallery</h2>
         </div>
 
         <div className="d-flex flex-wrap justify-content-center m-5  ">

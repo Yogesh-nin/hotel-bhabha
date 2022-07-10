@@ -9,8 +9,8 @@ const Facilities = () => {
   return (
     <Container className="facility-container">
         <Row>
-            <div className="text-center facility-title">
-                <h2>Facilities</h2>
+            <div className="facility-title">
+                <h2 className="division-heading">Facilities</h2>
             </div>
             
             <Col sm={12} md>

@@ -8,13 +8,3 @@
   height: 60vh;
 }
 
-.gallery h1{
-  font-size: 64px;
-  font-family: 'Old Standard TT', serif;
-}
-
-@media screen and (max-width: 768px){
-  .gallery-title h1{
-    font-size: 38px;
-  }
-}
