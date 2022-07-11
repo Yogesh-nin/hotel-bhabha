@@ -1,23 +1,17 @@
-.room-slider-container{
-    width: 100%;
-}
 
 .room-slider-container h2{
     line-height: 1.5;
     margin-bottom: 15px;
 }
 
-.slider-column{
-    width: 20rem;
-    max-width: 100%;
-}
-.image-container{
-    display: inline;
-    width: 40%;
+
+.more{
+    color: #35090b;
+    text-decoration: none;
 }
 
-.room-details{
-    display: inline;
+.more:hover{
+    color: #35090b;
 }
 
 .more:hover .more-icon{

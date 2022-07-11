@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import RoomOverview from "../Components/Rooms";
 import Facilities from "../Components/Facilities";
-import CardSlider from "../Components/CardSlider/CardSlider";
+import RoomSlider from "../Components/RoomSlider/RoomSlider";
 import { useParams } from 'react-router-dom'
 
 const Room = () =>{
@@ -37,7 +37,7 @@ const Room = () =>{
           (renderElement())
         } 
         <Facilities />
-        <CardSlider />
+        <RoomSlider />
         <Footer />
     </div>
   )

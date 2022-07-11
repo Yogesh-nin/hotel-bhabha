@@ -81,10 +81,10 @@ const Header = () => {
                   <NavDropdown.Item as={Link} to="/rooms/standard-room">
                     Standard room
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms/delux-room">
+                  <NavDropdown.Item as={Link} to="/rooms/deluxe-room">
                     Delux room
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/rooms/family-room/">
+                  <NavDropdown.Item as={Link} to="/rooms/family-room">
                     Family room
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/rooms/executive-room">
