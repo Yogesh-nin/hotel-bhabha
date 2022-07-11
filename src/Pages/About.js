@@ -1,9 +1,9 @@
 import React from "react";
 
 //components
-import Header from "../Components/Header";
+import Header from "../Components/Header/index";
 import AboutUsGrid from "../Components/AboutUsGrid/AboutUsGrid";
-import Footer from "../Components/Footer";
+import Footer from "../Components/Footer/index";
 import Gallery from "../Components/Gallery/Gallery";
 
 function About() {
