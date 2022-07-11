@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf8c0d10.css",
+    "main.js": "/static/js/main.f0877e60.js",
+    "static/media/food2.jpg": "/static/media/food2.0f26c2d714d226caedf9.jpg",
+    "static/media/DSC00754.jpg": "/static/media/DSC00754.0916c91efea01bbb42a2.jpg",
+    "static/media/gallery3.jpg": "/static/media/gallery3.b2431b9932a1028b4595.jpg",
+    "static/media/gallery7.jpg": "/static/media/gallery7.948c15d9aec6fa3921f4.jpg",
+    "static/media/restaurant2.jpg": "/static/media/restaurant2.f4b4cd0501edd2e8b855.jpg",
+    "static/media/gallery8.jpg": "/static/media/gallery8.933002d43738ad911be0.jpg",
+    "static/media/gallery2.jpg": "/static/media/gallery2.2d649a4af88bd39f9122.jpg",
+    "static/media/weeding.jpg": "/static/media/weeding.9a3b57ff713c790f4c57.jpg",
+    "static/media/meeting.jpg": "/static/media/meeting.8a3368e10f2d1fc5c270.jpg",
+    "static/media/about-grid-large.jpg": "/static/media/about-grid-large.be26834dfd8ec4d8bbbf.jpg",
+    "static/media/gallery4.jpg": "/static/media/gallery4.658fdff1962231eac50f.jpg",
+    "static/media/gallery6.jpg": "/static/media/gallery6.3b5d8ed190adbf5656de.jpg",
+    "static/media/gallery1.jpg": "/static/media/gallery1.95a34ea6974c362d512f.jpg",
+    "static/media/slideimg3.jpg": "/static/media/slideimg3.af317c397d3e05a6eb27.jpg",
+    "static/media/gallery5.jpg": "/static/media/gallery5.61e1fb20f542729289b0.jpg",
+    "static/media/sliderimg-2.jpeg": "/static/media/sliderimg-2.5b85cf54131587dd592a.jpeg",
+    "static/media/delux-img-4.jpeg": "/static/media/delux-img-4.30561df0d53cda1da34e.jpeg",
+    "static/media/executive-room.jpeg": "/static/media/executive-room.81fa195890b0faec3164.jpeg",
+    "static/media/about-grid-small.jpg": "/static/media/about-grid-small.8f0b9616641d91d4d93f.jpg",
+    "static/media/sliderimg-3.jpeg": "/static/media/sliderimg-3.c2677e658de89fb132dc.jpeg",
+    "static/media/superior-room.jpeg": "/static/media/superior-room.d56d5d91386fdfa09334.jpeg",
+    "static/media/sliderimg-1.jpeg": "/static/media/sliderimg-1.9305e519b7c53af8c7d8.jpeg",
+    "static/media/contact.jpeg": "/static/media/contact.7f96d99b10269081eff9.jpeg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/index.html",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.cf8c0d10.css.map": "/static/css/main.cf8c0d10.css.map",
+    "main.f0877e60.js.map": "/static/js/main.f0877e60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf8c0d10.css",
+    "static/js/main.f0877e60.js"
+  ]
+}
