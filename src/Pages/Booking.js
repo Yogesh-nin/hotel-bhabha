@@ -1,7 +1,7 @@
 import React from "react";
 
 //componets
-import Header from "../Components/Header";
+import Header from "../Components/Header/index";
 import Footer from "../Components/Footer";
 import BookingDetails from "../Components/Booking/BookingDetails";
 
